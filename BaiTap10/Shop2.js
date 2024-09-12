@@ -7,7 +7,7 @@ function Add() {
     var qty = parseInt(document.getElementById("qty").value);
     var price = parseInt(document.getElementById("up").value);
 
-    if (pname === "" || isNaN(qty) || isNaN(price)) {
+    if (pname === "" || qty === "" || price === "") {
         alert("Please fill all fields with valid values.");
         return;
     }
